@@ -1,0 +1,172 @@
+<html>
+
+<head>
+  <title>Triple_A | Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" href="fonts/ionicons.min.css">
+
+
+</head>
+
+<body>
+  <header>
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-sm bg-light navbar-light   ">
+        <a class="navbar-brand text-uppercase" href="index.html">Gallery</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Get in touch</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="block-heading">
+
+        <h3 class="text-center " style="margin:30px "> <a class="Home-Page" href="index.html">
+            Triple_A Art Work </h3> </a>
+      </div>
+  </header>
+
+  <div class="row">
+    <div class="col">
+      <img src="img/nice_sketch.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" />
+      <img src="img/heart_plant.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" />
+      <img src="img/void.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" />
+      <img src="img/face.jpg" onclick="openLightbox();toSlide(4)" class="hover-shadow preview" />
+      <img src="img/shark.jpg" onclick="openLightbox();toSlide(5)" class="hover-shadow preview" />
+      <img src="img/black_white.jpg" onclick="openLightbox();toSlide(6)" class="hover-shadow preview" />
+    </div>
+
+    <div class="col">
+      <img src="img/sketch1.jpg" onclick="openLightbox();toSlide(7)" class="hover-shadow preview" />
+      <img src="img/heart.jpg" onclick="openLightbox();toSlide(8)" class="hover-shadow preview" />
+      <img src="img/skull.jpg" onclick="openLightbox();toSlide(9)" class="hover-shadow preview" />
+      <img src="img/mask.jpg" onclick="openLightbox();toSlide(10)" class="hover-shadow preview" />
+      <img src="img/jack_box.jpg" onclick="openLightbox();toSlide(11)" class="hover-shadow preview" />
+      <img src="img/plants.jpg" onclick="openLightbox();toSlide(12)" class="hover-shadow preview" />
+    </div>
+
+    <div class="col">
+      <img src="img/sketch2.jpg" onclick="openLightbox();toSlide(13)" class="hover-shadow preview" />
+      <img src="img/heart_mom.jpg" onclick="openLightbox();toSlide(14)" class="hover-shadow preview" />
+      <img src="img/purple_tree.jpg" onclick="openLightbox();toSlide(15)" class="hover-shadow preview" />
+      <img src="img/mouth.jpg" onclick="openLightbox();toSlide(16)" class="hover-shadow preview" />
+      <img src="img/snake.jpg" onclick="openLightbox();toSlide(17)" class="hover-shadow preview" />
+      <img src="img/random_flag.jpg" onclick="openLightbox();toSlide(18)" class="hover-shadow preview" />
+      <img src="img/snake2.jpg" onclick="openLightbox();toSlide(18)" class="hover-shadow preview" />
+    </div>
+
+  </div>
+
+  <!-- This is thelightbox, it is contained in a modal. images are provided here,
+       controls, and another . . Note that entities are used (e.g. &times;), more info on
+       them at the bottom. -->
+
+  <div id="Lightbox" class="modal">
+    <span class="close pointer" onclick="closeLightbox()">&times;</span>
+    <div class="modal-content">
+
+      <div class="slide">
+        <img src="img/nice_sketch.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/heart_plant.jpg" class="image-slide" />
+
+      </div>
+
+      <div class="slide">
+        <img src="img/void.jpg" class="image-slide" />
+
+      </div>
+      <div class="slide">
+        <img src="img/face.jpg" class="image-slide" />
+
+      </div>
+      <div class="slide">
+        <img src="img/shark.jpg" class="image-slide" />
+
+      </div>
+      <div class="slide">
+        <img src="img/black_white.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/sketch1.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/heart.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/skull.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/mask.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/jack_box.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/plants.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/sketch2.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/heart_mom.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/purple_tree.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/mouth.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/snake.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/random_flag.jpg" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="img/snake2.jpg" class="image-slide">
+      </div>
+      <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+    </div>
+  </div>
+  </div>
+  <!--  Footer  -->
+  <div class="footer-basic">
+    <footer>
+      <div class="social">
+        <a target="_blank" href="https://www.instagram.com/triple_a_aaart/"><i
+            class="icon ion-social-instagram"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCwJKnGQtQdd5ZGWxGRtEZKw"><i
+            class="icon ion-social-youtube"></i></a>
+      </div>
+      <p class="copyright">Triple_A © 2020</p>
+    </footer>
+  </div>
+
+
+
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</body>
+
+</html>
