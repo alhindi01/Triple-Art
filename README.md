@@ -1,3 +1,3 @@
 # Triple-Art
-Art Portfolio using html,css,bootstrap and javascript
-https://tripleaart.netlify.app/
+https://tripleaart.netlify.app/  
+Art Portfolio using HTML/CSS/Bootstrap and JavaScript
